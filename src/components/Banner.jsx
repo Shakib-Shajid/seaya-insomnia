@@ -4,7 +4,8 @@ const Banner = () => {
     return (
         <div className='w-full h-[420px] md:h-screen'>
             <video
-                src="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/10/Seaya_Portada_NewVideo_low2.mp4"
+                // src="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2022/10/Seaya_Portada_NewVideo_low2.mp4"
+                src="/insomnia_lab_video.mp4"
                 loop
                 muted
                 autoPlay
