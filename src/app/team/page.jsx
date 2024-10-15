@@ -9,7 +9,7 @@ const page = () => {
         <div className='max-w-7xl mx-auto mt-20 lg:mt-40'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:w-10/12 lg:w-full mx-auto'>
                 {/* 1st */}
-                <div className="card card-compact w-[300px] mx-auto">
+                <div className="card card-compact w-[300px] mx-auto" >
                     <Link href="https://linkedin.com/" target="_blank"> 
                         <figure>
                             <Image

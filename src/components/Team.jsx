@@ -11,7 +11,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Pagination } from 'swiper/modules';
+// import { Pagination } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
 import Image from 'next/image';
 
 const Team = () => {
@@ -189,36 +191,45 @@ const Team = () => {
                     </Swiper> */}
                 {/* <div className="custom-pagination mt-[30px] flex justify-center pb-10"></div> */}
 
-                <Swiper data-aos="flip-left"
-                    slidesPerView={4}
-                    spaceBetween={30}
-                    loop={true}
-                    pagination={{
-                        clickable: true,
-                        el: '.custom-pagination',
-                        //  Target the custom pagination element
-                    }}
-                    modules={[Pagination]}
-                    className="mySwiper w-11/12 md:w-11/12 my-14"
-
-                    breakpoints={{
-                        // Mobile view (up to 768px)
-                        0: {
-                            slidesPerView: 1,
-                            spaceBetween: 10,
-                        },
-                        // Tablet view (768px and above)
-                        768: {
-                            slidesPerView: 2,
-                            spaceBetween: 20,
-                        },
-                        // Desktop view (1024px and above)
-                        1024: {
-                            slidesPerView: 4,
-                            spaceBetween: 30,
-                        },
-                    }}
-                >
+                <Swiper
+            data-aos="flip-left"
+            slidesPerView={4} // Default for desktop
+            spaceBetween={30}
+            loop={true}
+            pagination={{
+                clickable: true,
+                el: '.custom-pagination', // Target the custom pagination element
+            }}
+            autoplay={{
+                delay: 2500, // Autoplay delay
+                disableOnInteraction: false, // Autoplay continues after user interactions
+            }} // Autoplay for mobile view
+            modules={[Autoplay, Pagination]} // Include Autoplay and Pagination modules
+            className="mySwiper w-11/12 md:w-11/12 my-14"
+            breakpoints={{
+                // Mobile view (up to 768px)
+                0: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                    autoplay: {
+                        delay: 1200,
+                        disableOnInteraction: false,
+                    },
+                },
+                // Tablet view (768px and above)
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                    autoplay: false, // Disable autoplay for tablet and above
+                },
+                // Desktop view (1024px and above)
+                1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                    autoplay: false, // Disable autoplay for desktop
+                },
+            }}
+        >
 
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/jdrocafort/" target="_blank">
@@ -240,7 +251,7 @@ const Team = () => {
                         </Link>
                     </SwiperSlide>
 
-                    <SwiperSlide>
+                    <SwiperSlide >
                         <Link href="https://www.linkedin.com/in/fernando-abella-garc%C3%ADa-b9a02aa/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
                                 <figure className="pt-4">
