@@ -22,6 +22,16 @@ body {
 
 }
 
+[data-theme="dark"] {
+  background-color: black;
+  color: white;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -30,4 +40,23 @@ body {
 
 .swiper-pagination-bullet {
   margin: 0 5px; /* Increase horizontal margin between dots */
+}
+
+
+.custom-pagination .swiper-pagination-bullet {
+  background: white; /* Set the color of the dots to white */
+}
+
+.custom-pagination .swiper-pagination-bullet-active {
+  background: white; /* Active dot color */
+}
+
+@media (max-width: 768px) {
+  .custom-pagination .swiper-pagination-bullet {
+      background: black; /* Change to black for mobile */
+  }
+
+  .custom-pagination .swiper-pagination-bullet-active {
+      background: black; /* Active dot color for mobile */
+  }
 }

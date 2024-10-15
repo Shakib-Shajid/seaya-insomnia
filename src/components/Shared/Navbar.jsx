@@ -4,12 +4,20 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation'; // Import usePathname
 
+// aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
     const pathname = usePathname(); // Get the current pathname
     const pathParts = pathname.split('/'); // Split the pathname by '/'
     const pageName = pathParts[pathParts.length - 1] || 'home'; // Get the last part, default to 'home'
     console.log(pathname);
+
+    useEffect(()=>{
+        AOS.init();
+    },[])
 
     useEffect(() => {
         const handleScroll = () => {
