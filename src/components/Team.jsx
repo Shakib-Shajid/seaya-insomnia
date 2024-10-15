@@ -20,10 +20,11 @@ const Team = () => {
         // bg-[#8a8a8c]
         <div className='bg-[#6da3e1] w-[96%] mb-64 h-[500px] md:h-[700px] lg:h-screen mx-auto font-hankenGrotesk'>
             <div className='w-[80%] md:w-10/12 mx-auto'>
-                <div className='pt-10 md:pt-12'>
+                {/* <div className='pt-10 md:pt-12'>
                     <hr className='border-black' />
-                </div>
-                <h3 className='text-3xl md:text-5xl pt-10 mx-auto w-11/12 md:w-11/12' data-aos="fade-down">Our team</h3>
+                </div> */}
+                {/* <h3 className='text-3xl md:text-5xl pt-10 mx-auto w-11/12 md:w-11/12' data-aos="fade-down">Our team</h3> */}
+                <h3 className='text-3xl md:text-5xl pt-10 mx-auto w-11/12 md:w-11/12 ' data-aos="fade-down">Team</h3>
                 <div className='w-11/12 mx-auto text-white' data-aos="fade-down">
                     <p className='text-2xl md:text-3xl py-5 md:py-10'>Multidisciplinary team, engaged and supportive</p>
 

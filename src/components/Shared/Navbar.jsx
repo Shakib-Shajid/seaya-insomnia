@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation'; // Import usePathname
 // aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Image from 'next/image';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -15,9 +16,9 @@ const Navbar = () => {
     const pageName = pathParts[pathParts.length - 1] || 'home'; // Get the last part, default to 'home'
     console.log(pathname);
 
-    useEffect(()=>{
+    useEffect(() => {
         AOS.init();
-    },[])
+    }, [])
 
     useEffect(() => {
         const handleScroll = () => {
@@ -37,12 +38,13 @@ const Navbar = () => {
     };
 
     return (
-        <div className={`navbar fixed top-0 left-0 w-full z-10 transition-colors duration-300 font-hankenGrotesk lg:py-10 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
+        <div className={`navbar fixed top-0 left-0 w-full z-10 transition-colors duration-300 font-hankenGrotesk lg:py-5 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
             <div className="flex-1">
                 {isScrolled && (
-                    <Link href="/" className="btn btn-ghost rounded-none text-lg lg:text-xl border-black border-2 text-black ml-2 lg:ml-4 tracking-widest">
-                        SEAYA
-                    </Link>
+                    // <Link href="/" >
+                    //     <Image src="/m_logo.png" width="100" height="50" alt="" className='border border-red-600 ml-10'/>
+                    // </Link>
+                    <Image src="/m_logo.png" width="200" height="100" alt="" className=' ml-10' />
                 )}
             </div>
             <div className="flex-none">
@@ -73,7 +75,7 @@ const Navbar = () => {
                                         <Link href="/" onClick={closeModal}>
                                             <span className={`relative group ${pageName === 'home' ? 'underline' : ''}`}>
                                                 Home
-                                                <span className={`${pageName === 'home' ? '' : "absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"}`}></span>
+                                                <span className={`${pageName === 'home' ? '' : "absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-200100 group-hover:origin-left"}`}></span>
                                             </span>
                                         </Link>
                                     </li>
