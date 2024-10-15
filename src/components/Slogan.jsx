@@ -15,16 +15,17 @@ const Slogan = () => {
                     {/* <span>&minus;</span>  */}
                     {/* <GoDash className="inline-block text-3xl hover:opacity-0"/> */}
                     <Link href="/impact">
-                        <div className="flex gap-2 md:w-10/12 lg:w-full font-light py-7 md:py-10 md:mx-auto ">
+                        <div className="flex gap-2 md:w-10/12 lg:w-full font-light py-7 md:mx-auto ">
                             <div className="flex mt-3 md:mt-0 ">
-                                <IoIosArrowRoundForward className="text-3xl text-[#333333]" />
+                                <IoIosArrowRoundForward className="text-3xl text-[#3333333]" />
                             </div>
-                            <p className="text-lg hover:underline text-[#333333]"> Discover how we&apos;re shaping the future of digital fashion</p>
+                            <p className="text-lg hover:underline text-[#3333333]"> Discover how we&apos;re shaping the future of digital fashion</p>
                         </div>
                     </Link>
                 </div>
 
-                <div className="lg:p-10 flex justify-center items-center text-2xl md:w-[80%] mx-auto lg:w-[50%] lg:border-l-2 lg:border-gray-400 my-3 lg:my-10]" data-aos="fade-right">
+                <div className="lg:p-10 flex justify-center items-center text-2xl md:w-[80%] mx-auto lg:w-[50%] my-3 lg:my-10]" data-aos="fade-right">
+                    <div className="h-80 border-l-2 border-gray-500 px-5 rounded-3xl"></div>
                     <div className="">
                         <div className="text-center">
                             <FaQuoteLeft className="text-5xl " />
@@ -35,7 +36,10 @@ const Slogan = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="h-80 border-r-2 border-gray-500 px-5 rounded-3xl"></div>
                 </div>
+
+
             </div>
         </div >
     );
