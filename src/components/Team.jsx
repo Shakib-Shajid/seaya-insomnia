@@ -78,7 +78,7 @@ const Team = () => {
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <p className="text-white text-xl font-bold">Javier de Rocafort</p>
-                                    {/* <p className="text-white text-md">Software Engineer</p> */}
+                                    <p className="text-white text-md">Partner</p>
                                 </div>
                             </div>
                         </Link>
@@ -91,7 +91,7 @@ const Team = () => {
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <p className="text-white text-xl font-bold">Fernando Abella</p>
-                                    {/* <p className="text-white text-md">Software Engineer</p> */}
+                                    <p className="text-white text-md">Partner</p>
                                 </div>
                             </div>
                         </Link>
@@ -104,7 +104,7 @@ const Team = () => {
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <p className="text-white text-xl font-bold">Marco Pozzi</p>
-                                    {/* <p className="text-white text-md">Software Engineer</p> */}
+                                    <p className="text-white text-md">Partner</p>
                                 </div>
                             </div>
                         </Link>
@@ -118,7 +118,7 @@ const Team = () => {
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <p className="text-white text-xl font-bold">Alejandro Rodríguez</p>
-                                    {/* <p className="text-white text-md">Software Engineer</p> */}
+                                    <p className="text-white text-md">Partner</p>
                                 </div>
                             </div>
                         </Link>
@@ -131,7 +131,7 @@ const Team = () => {
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <p className="text-white text-xl font-bold">Javier de Rocafort</p>
-                                    {/* <p className="text-white text-md">Software Engineer</p> */}
+                                    <p className="text-white text-md">Partner</p>
                                 </div>
                             </div>
                         </Link>
@@ -144,7 +144,7 @@ const Team = () => {
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <p className="text-white text-xl font-bold">Fernando Abella</p>
-                                    {/* <p className="text-white text-md">Software Engineer</p> */}
+                                    <p className="text-white text-md">Partner</p>
                                 </div>
                             </div>
                         </Link>
@@ -157,7 +157,7 @@ const Team = () => {
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <p className="text-white text-xl font-bold">Marco Pozzi</p>
-                                    {/* <p className="text-white text-md">Software Engineer</p> */}
+                                    <p className="text-white text-md">Partner</p>
                                 </div>
                             </div>
                         </Link>
@@ -171,7 +171,7 @@ const Team = () => {
                                 {/* Overlay with name and position, hidden by default */}
                                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end items-start pb-10 pl-7 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                     <p className="text-white text-xl font-bold">Alejandro Rodríguez</p>
-                                    {/* <p className="text-white text-md">Software Engineer</p> */}
+                                    <p className="text-white text-md">Partner</p>
                                 </div>
                             </div>
                         </Link>
