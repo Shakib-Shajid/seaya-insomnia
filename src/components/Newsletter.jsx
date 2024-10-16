@@ -10,7 +10,7 @@ const Newsletter = () => {
                 pleasure and praising pain was born
             </p>
 
-            <div className='w-full md:w-[80%] mx-auto'>
+            <div className='w-full md:w-[80%] mx-auto'> 
                 <input
                     type="email"
                     className="text-white bg-transparent border border-white rounded-full mt-6 p-6 focus:outline-none  placeholder-white w-full lg:w-3/4"
