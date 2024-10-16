@@ -22,7 +22,7 @@ body {
 
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -43,41 +43,56 @@ body {
 }
 
 .swiper-pagination-bullet {
-  margin: 0 5px; /* Increase horizontal margin between dots */
+  margin: 0 5px;
+  /* Increase horizontal margin between dots */
 }
 
 
 .custom-pagination .swiper-pagination-bullet {
-  background: white; /* Set the color of the dots to white */
+  background: white;
+  /* Set the color of the dots to white */
 }
 
 .custom-pagination .swiper-pagination-bullet-active {
-  background: white; /* Active dot color */
+  background: white;
+  /* Active dot color */
 }
 
 @media (max-width: 768px) {
   .custom-pagination .swiper-pagination-bullet {
-      background: black; /* Change to black for mobile */
+    background: black;
+    /* Change to black for mobile */
   }
 
   .custom-pagination .swiper-pagination-bullet-active {
-      background: black; /* Active dot color for mobile */
+    background: black;
+    /* Active dot color for mobile */
   }
 }
 
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-      transform: translateY(0);
+
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
   }
+
   40% {
-      transform: translateY(-10px); /* Adjust this value for the bounce height */
+    transform: translateY(-10px);
+    /* Adjust this value for the bounce height */
   }
+
   60% {
-      transform: translateY(-5px); /* Adjust this value for the bounce height */
+    transform: translateY(-5px);
+    /* Adjust this value for the bounce height */
   }
 }
 
 .bounce {
-  animation: bounce 4s infinite; /* 2 seconds duration, infinite repeat */
+  animation: bounce 4s infinite;
+  /* 2 seconds duration, infinite repeat */
 }

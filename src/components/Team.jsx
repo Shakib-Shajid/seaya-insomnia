@@ -19,8 +19,8 @@ import Image from 'next/image';
 const Team = () => {
 
     return (
-        // bg-[#8a8a8c]
-        <div className='bg-[#6da3e1] w-[96%] mb-40 md:mb-16 lg:mb-0 h-[500px] md:h-[700px] mx-auto font-hankenGrotesk'>
+        // bg-[#8a8a8c] 
+        <div className='bg-gradient-to-r from-cyan-500 to-blue-500  w-[96%] mb-40 md:mb-16 lg:mb-0 h-[500px] md:h-[700px] mx-auto font-hankenGrotesk'>
             <div className='w-[80%] md:w-[90%] mx-auto'>
                 {/* <div className='pt-10 md:pt-12'>
                     <hr className='border-black' />
