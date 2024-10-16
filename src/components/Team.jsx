@@ -20,7 +20,7 @@ const Team = () => {
 
     return (
         // bg-[#8a8a8c]
-        <div className='bg-[#6da3e1] w-[96%] mb-64 h-[500px] md:h-[700px] lg:h-screen mx-auto font-hankenGrotesk'>
+        <div className='bg-[#6da3e1] w-[96%] mb-10 h-[500px] md:h-[700px] lg:h-screen mx-auto font-hankenGrotesk'>
             <div className='w-[80%] md:w-10/12 mx-auto'>
                 {/* <div className='pt-10 md:pt-12'>
                     <hr className='border-black' />
@@ -192,44 +192,44 @@ const Team = () => {
                 {/* <div className="custom-pagination mt-[30px] flex justify-center pb-10"></div> */}
 
                 <Swiper
-            data-aos="flip-left"
-            slidesPerView={4} // Default for desktop
-            spaceBetween={30}
-            loop={true}
-            pagination={{
-                clickable: true,
-                el: '.custom-pagination', // Target the custom pagination element
-            }}
-            autoplay={{
-                delay: 2500, // Autoplay delay
-                disableOnInteraction: false, // Autoplay continues after user interactions
-            }} // Autoplay for mobile view
-            modules={[Autoplay, Pagination]} // Include Autoplay and Pagination modules
-            className="mySwiper w-11/12 md:w-11/12 my-14"
-            breakpoints={{
-                // Mobile view (up to 768px)
-                0: {
-                    slidesPerView: 1,
-                    spaceBetween: 10,
-                    autoplay: {
-                        delay: 1200,
-                        disableOnInteraction: false,
-                    },
-                },
-                // Tablet view (768px and above)
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                    autoplay: false, // Disable autoplay for tablet and above
-                },
-                // Desktop view (1024px and above)
-                1024: {
-                    slidesPerView: 4,
-                    spaceBetween: 30,
-                    autoplay: false, // Disable autoplay for desktop
-                },
-            }}
-        >
+                    data-aos="flip-left"
+                    slidesPerView={4} // Default for desktop
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                        clickable: true,
+                        el: '.custom-pagination', // Target the custom pagination element
+                    }}
+                    autoplay={{
+                        delay: 2500, // Autoplay delay
+                        disableOnInteraction: false, // Autoplay continues after user interactions
+                    }} // Autoplay for mobile view
+                    modules={[Autoplay, Pagination]} // Include Autoplay and Pagination modules
+                    className="mySwiper w-11/12 md:w-11/12 my-14"
+                    breakpoints={{
+                        // Mobile view (up to 768px)
+                        0: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                            autoplay: {
+                                delay: 2000,
+                                disableOnInteraction: false,
+                            },
+                        },
+                        // Tablet view (768px and above)
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                            autoplay: false, // Disable autoplay for tablet and above
+                        },
+                        // Desktop view (1024px and above)
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 30,
+                            autoplay: false, // Disable autoplay for desktop
+                        },
+                    }}
+                >
 
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/jdrocafort/" target="_blank">
@@ -270,7 +270,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                   
+
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/marcopozzibcn/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
@@ -290,7 +290,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                    
+
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/alejandro-rodr%C3%ADguez-cabrera-/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
@@ -310,7 +310,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                    
+
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/jdrocafort/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
@@ -350,7 +350,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                   
+
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/marcopozzibcn/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
@@ -370,7 +370,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                    
+
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/alejandro-rodr%C3%ADguez-cabrera-/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
@@ -390,7 +390,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                    
+
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/jdrocafort/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
@@ -430,7 +430,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                   
+
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/marcopozzibcn/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
@@ -450,7 +450,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                    
+
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/alejandro-rodr%C3%ADguez-cabrera-/" target="_blank">
                             <div className="card card-compact bg-white border-blue-400 border-2 w-72 md:w-60 shadow-2xl flex flex-col items-center relative">
@@ -471,7 +471,7 @@ const Team = () => {
                         </Link>
                     </SwiperSlide>
 
-                <div className="custom-pagination mt-10 md:mt-8 lg:mt-16 flex justify-center "></div>
+                    <div className="custom-pagination mt-10 md:mt-8 lg:mt-16 flex justify-center "></div>
 
                 </Swiper>
 

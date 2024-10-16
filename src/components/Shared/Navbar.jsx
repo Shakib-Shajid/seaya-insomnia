@@ -44,7 +44,9 @@ const Navbar = () => {
                     // <Link href="/" >
                     //     <Image src="/m_logo.png" width="100" height="50" alt="" className='border border-red-600 ml-10'/>
                     // </Link>
-                    <Image src="/m_logo.png" width="200" height="100" alt="" className='ml-3 lg:ml-10' />
+                    <Link href="/" >
+                        <Image src="/m_logo.png" width="1440" height="1000" alt="" className='ml-3 lg:ml-10 w-48' />
+                    </Link>
                 )}
             </div>
             <div className="flex-none">
@@ -62,7 +64,7 @@ const Navbar = () => {
                             d="M4 6h16M4 12h16M4 18h7" />
                     </svg>
                 </button>
-                
+
                 <dialog id="my_modal_3" className="modal">
                     <div className="bg-gray-200 w-full h-full p-8 md:p-28 lg:p-32 overflow-y-auto md:overflow-y-hidden text-2xl lg:text-3xl">
                         <form method="dialog">

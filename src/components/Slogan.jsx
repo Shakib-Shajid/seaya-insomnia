@@ -6,7 +6,7 @@ import { FaQuoteRight } from "react-icons/fa6";
 
 const Slogan = () => {
     return (
-        <div className="w-[80%] md:w-full mx-auto font-hankenGrotesk" >
+        <div className="w-[80%] md:w-full mx-auto font-hankenGrotesk" id="slogan" >
             <div className="flex flex-col lg:flex-row gap-2 ">
                 <div className="pt-5 mt-3 w-[100%] md:pl-10 lg:pl-20 lg:py-20 space-y-1 md:space-y-5" data-aos="fade-up">
 
@@ -24,19 +24,19 @@ const Slogan = () => {
                     </Link>
                 </div>
 
-                <div className="lg:p-10 flex justify-center items-center text-2xl md:w-[80%] mx-auto lg:w-[50%] my-3 lg:my-10]" data-aos="fade-right">
-                    <div className="h-80 border-l-2 border-gray-500 px-5 rounded-3xl"></div>
+                <div className="lg:p-10 flex justify-center items-center text-2xl md:w-[80%] mx-auto lg:w-[50%] my-3 lg:my-10]" data-aos="flip-right">
+                    <div className="h-80 border-l-2 border-blue-500 px-5 rounded-3xl"></div>
                     <div className="">
                         <div className="text-center">
                             <FaQuoteLeft className="text-5xl " />
-                            <span className="inline-flex text-[#333333"> I&apos;m convinced that about half of what separates successful entrepreneurs from the non-successful ones is pure perseverance. </span>
-                            <p className="text-center mt-2 font-bold text-[#333333">- Steve Jobs</p>
+                            <span className="inline-flex text-[#333333]"> I&apos;m convinced that about half of what separates successful entrepreneurs from the non-successful ones is pure perseverance. </span>
+                            <p className="text-center mt-2 font-bold text-[#333333]">- Steve Jobs</p>
                             <div className="flex justify-end">
                                 <FaQuoteRight className="text-5xl font-bold" />
                             </div>
                         </div>
                     </div>
-                    <div className="h-80 border-r-2 border-gray-500 px-5 rounded-3xl"></div>
+                    <div className="h-80 border-r-2 border-blue-500 px-5 rounded-3xl"></div>
                 </div>
 
 
