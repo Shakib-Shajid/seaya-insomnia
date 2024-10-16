@@ -20,14 +20,14 @@ const Team = () => {
 
     return (
         // bg-[#8a8a8c]
-        <div className='bg-[#6da3e1] w-[96%] mb-28 md:mb-16 lg:mb-0 h-[500px] md:h-[700px] mx-auto font-hankenGrotesk'>
-            <div className='w-[80%] md:w-10/12 mx-auto'>
+        <div className='bg-[#6da3e1] w-[96%] mb-40 md:mb-16 lg:mb-0 h-[500px] md:h-[700px] mx-auto font-hankenGrotesk'>
+            <div className='w-[80%] md:w-[90%] mx-auto'>
                 {/* <div className='pt-10 md:pt-12'>
                     <hr className='border-black' />
                 </div> */}
                 {/* <h3 className='text-3xl md:text-5xl pt-10 mx-auto w-11/12 md:w-11/12' data-aos="fade-down">Our team</h3> */}
-                <h3 className='text-3xl md:text-5xl pt-10 mx-auto w-11/12 md:w-11/12 ' data-aos="fade-down">Team</h3>
-                <div className='w-11/12 mx-auto text-white' data-aos="fade-down">
+                <h3 className='text-3xl md:text-5xl pt-10 mx-auto' data-aos="fade-down">Team</h3>
+                <div className='text-white' data-aos="fade-down">
                     <p className='text-2xl md:text-3xl py-5 md:py-10'>Multidisciplinary team, engaged and supportive</p>
 
                     <Link href="/team" className="relative flex items-center group text-2xl">
@@ -191,7 +191,7 @@ const Team = () => {
                     </Swiper> */}
                 {/* <div className="custom-pagination mt-[30px] flex justify-center pb-10"></div> */}
 
-                <Swiper
+                {/* <Swiper
                     data-aos="flip-left"
                     slidesPerView={4} // Default for desktop
                     spaceBetween={30}
@@ -473,6 +473,129 @@ const Team = () => {
 
                     <div className="custom-pagination mt-10 md:mt-12 lg:mt-16 flex justify-center "></div>
 
+                </Swiper> */}
+                <Swiper
+                    data-aos="flip-left"
+                    slidesPerView={4} // Default for desktop
+                    spaceBetween={30}
+                    loop={true}
+                    pagination={{
+                        clickable: true,
+                        el: '.custom-pagination', // Target the custom pagination element
+                    }}
+                    autoplay={{
+                        delay: 2500, // Autoplay delay
+                        disableOnInteraction: false, // Autoplay continues after user interactions
+                    }}
+                    modules={[Autoplay, Pagination]} // Include Autoplay and Pagination modules
+                    className="mySwiper my-14"
+                    breakpoints={{
+                        // Mobile view (up to 768px)
+                        0: {
+                            slidesPerView: 1,
+                            spaceBetween: 10,
+                            autoplay: {
+                                delay: 2000,
+                                disableOnInteraction: false,
+                            },
+                        },
+                        // Tablet view (768px and above)
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                            autoplay: false, // Disable autoplay for tablet and above
+                        },
+                        // Desktop view (1024px and above)
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 20,
+                            autoplay: false, // Disable autoplay for desktop
+                        },
+                    }}
+                >
+                    {/* Only include 4 SwiperSlide components */}
+                    <SwiperSlide>
+                        <Link href="https://www.linkedin.com/in/jdrocafort/" target="_blank">
+                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 xl:w-64 shadow-2xl flex flex-col items-center relative min-h-[320px]">
+                                <figure className="pt-4">
+                                    <Image
+                                        src="/javier_de_rocafort.png"
+                                        width="150"
+                                        height="150"
+                                        alt="javier_de_rocafort"
+                                        className="rounded-full border-4 border-blue-500"
+                                    />
+                                </figure>
+                                <div className="card-body text-center">
+                                    <h2 className="card-title">Javier de Rocafort</h2>
+                                    <p>Partner</p>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <Link href="https://www.linkedin.com/in/fernando-abella-garc%C3%ADa-b9a02aa/" target="_blank">
+                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 xl:w-64 shadow-2xl flex flex-col items-center relative min-h-[320px]">
+                                <figure className="pt-4">
+                                    <Image
+                                        src="/fernando_abella.jpg"
+                                        width="150"
+                                        height="150"
+                                        alt="fernando_abella"
+                                        className="rounded-full border-4 border-blue-500"
+                                    />
+                                </figure>
+                                <div className="card-body text-center">
+                                    <h2 className="card-title">Fernando Abella</h2>
+                                    <p>Partner</p>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <Link href="https://www.linkedin.com/in/marcopozzibcn/" target="_blank">
+                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 xl:w-64 shadow-2xl flex flex-col items-center relative min-h-[320px]">
+                                <figure className="pt-4">
+                                    <Image
+                                        src="/marco_pozzi.jpg"
+                                        width="150"
+                                        height="150"
+                                        alt="marco_pozzi"
+                                        className="rounded-full border-4 border-blue-500"
+                                    />
+                                </figure>
+                                <div className="card-body text-center">
+                                    <h2 className="card-title">Marco Pozzi</h2>
+                                    <p>Partner</p>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <Link href="https://www.linkedin.com/in/alejandro-rodr%C3%ADguez-cabrera-/" target="_blank">
+                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 xl:w-64 shadow-2xl flex flex-col items-center relative min-h-[320px]">
+                                <figure className="pt-4">
+                                    <Image
+                                        src="/alejandro_rodríguez.jpg"
+                                        width="150"
+                                        height="150"
+                                        alt="alejandro_rodriguez"
+                                        className="rounded-full border-4 border-blue-500"
+                                    />
+                                </figure>
+                                <div className="card-body text-center">
+                                    <h2 className="card-title">Alejandro Rodríguez</h2>
+                                    <p>Partner</p>
+                                </div>
+                            </div>
+                        </Link>
+                    </SwiperSlide>
+
+
+                    <div className="custom-pagination mt-10 md:mt-12 lg:mt-16 flex justify-center"></div>
                 </Swiper>
 
 

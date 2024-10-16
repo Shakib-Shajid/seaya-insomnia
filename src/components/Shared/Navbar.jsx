@@ -45,7 +45,7 @@ const Navbar = () => {
                     //     <Image src="/m_logo.png" width="100" height="50" alt="" className='border border-red-600 ml-10'/>
                     // </Link>
                     <Link href="/" >
-                        <Image src="/m_logo.png" width="1440" height="1000" alt="" className='ml-3 lg:ml-10 w-48' />
+                        <Image src="/c_logo.png" width="1440" height="1000" alt="" className='ml-3 lg:ml-10 w-48' />
                     </Link>
                 )}
             </div>
