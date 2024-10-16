@@ -20,7 +20,7 @@ const Team = () => {
 
     return (
         // bg-[#8a8a8c]
-        <div className='bg-[#6da3e1] w-[96%] mb-10 h-[500px] md:h-[700px] lg:h-screen mx-auto font-hankenGrotesk'>
+        <div className='bg-[#6da3e1] w-[96%] mb-28 md:mb-16 lg:mb-0 h-[500px] md:h-[700px] mx-auto font-hankenGrotesk'>
             <div className='w-[80%] md:w-10/12 mx-auto'>
                 {/* <div className='pt-10 md:pt-12'>
                     <hr className='border-black' />
@@ -471,7 +471,7 @@ const Team = () => {
                         </Link>
                     </SwiperSlide>
 
-                    <div className="custom-pagination mt-10 md:mt-8 lg:mt-16 flex justify-center "></div>
+                    <div className="custom-pagination mt-10 md:mt-12 lg:mt-16 flex justify-center "></div>
 
                 </Swiper>
 

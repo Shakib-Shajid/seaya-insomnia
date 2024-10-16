@@ -2,7 +2,7 @@ import React from 'react';
 
 const Newsletter = () => {
     return (
-        <div className="text-center relative mx-auto bg-blue-400 text-white md:rounded-3xl p-5 lg:p-10 md:w-[90%] lg:w-[70%] mb-10" data-aos="zoom-in">
+        <div className="text-center relative mx-auto bg-blue-400 text-white md:rounded-3xl p-5 lg:p-10 md:w-[90%] lg:w-[70%] my-10" data-aos="zoom-in">
             <h5 className="text-lg lg:text-xl">Join Our Community</h5>
             <h2 className="text-xl md:text-3xl font-bold">Subscribe To Our Newsletter</h2>
             <p className="mt-4 text-base">
