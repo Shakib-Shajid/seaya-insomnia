@@ -207,10 +207,9 @@ const page = () => {
         //     </section>
         // </div>
         <div className=''>
-            <section className='md:p-24 mt-20 mb-20 md:mb-5 md:mt-0 w-[80%] mx-auto md:w-full'>
-                <h3 className='text-3xl md:text-4xl lg:text-6xl'>Shaping the future of digital fashion: The Insomnia Lab approach
-                </h3>
-                <p className='text-2xl lg:w-3/4 my-2 space-y-3'>At Insomnia Lab, we&apos;re not just passive investors; we are active participants in the evolution of the digital fashion landscape. We&apos;ve assembled a dynamic network of experienced professionals, entrepreneurs, and industry experts who share a passion for supporting the next generation of digital-native fashion brands. Our approach is inspired by successful models in the global venture
+            <section className='md:p-24 mt-20 mb-20 md:mb-5 md:mt-0 w-[80%] mx-auto md:w-full' data-aos="fade-right">
+                <h3 className='text-3xl md:text-4xl lg:text-6xl'>Shaping the future of digital fashion: The Insomnia Lab approach</h3> <br />
+                <p className='text-xl lg:w-3/4 my-2 space-y-3'>At Insomnia Lab, we&apos;re not just passive investors; we are active participants in the evolution of the digital fashion landscape. We&apos;ve assembled a dynamic network of experienced professionals, entrepreneurs, and industry experts who share a passion for supporting the next generation of digital-native fashion brands. Our approach is inspired by successful models in the global venture
                     capital space, incorporating elements of community building, specialized expertise, and a focus on long-term growth.</p>
                 <div className='space-y-4 mt-3'>
                     <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/Seaya_ESG-and-Impact-Report-2023.pdf" target="_blank"><p className='flex gap-1 my-4'><span className='text-xl'><GoDash /></span> Seaya 2023 ESG & Impact Report</p></Link>
@@ -218,7 +217,7 @@ const page = () => {
                 </div>
             </section>
 
-            <section className='bg-[#97D4CB]'>
+            <section className='bg-[#97D4CB]' data-aos="flip-left">
                 <div className='md:px-24 md:py-16 w-[80%] mx-auto md:w-full'>
                     <div className='pt-8 pb-2'>
                         <hr className='border border-gray-400 w-full' />
