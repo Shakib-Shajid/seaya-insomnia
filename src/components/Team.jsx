@@ -516,7 +516,7 @@ const Team = () => {
                     {/* Only include 4 SwiperSlide components */}
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/jdrocafort/" target="_blank">
-                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 lg:w-52 xl:w-64 2xl:w-72 shadow-2xl flex flex-col items-center relative min-h-[320px]">
+                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 lg:w-52 xl:w-64 2xl:w-72 shadow-2xl flex flex-col items-center relative lg:min-h-[290px] xl:min-h-[200px]">
                                 <figure className="pt-4">
                                     <Image
                                         src="/javier_de_rocafort.png"
@@ -536,7 +536,7 @@ const Team = () => {
 
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/fernando-abella-garc%C3%ADa-b9a02aa/" target="_blank">
-                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 lg:w-52 xl:w-64 2xl:w-72 shadow-2xl flex flex-col items-center relative min-h-[320px]">
+                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 lg:w-52 xl:w-64 2xl:w-72 shadow-2xl flex flex-col items-center relative lg:min-h-[290px] xl:min-h-[200px]">
                                 <figure className="pt-4">
                                     <Image
                                         src="/fernando_abella.jpg"
@@ -556,7 +556,7 @@ const Team = () => {
 
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/marcopozzibcn/" target="_blank">
-                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 lg:w-52 xl:w-64 2xl:w-72 shadow-2xl flex flex-col items-center relative min-h-[320px]">
+                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 lg:w-52 xl:w-64 2xl:w-72 shadow-2xl flex flex-col items-center relative lg:min-h-[290px] xl:min-h-[200px]">
                                 <figure className="pt-4">
                                     <Image
                                         src="/marco_pozzi.jpg"
@@ -576,7 +576,7 @@ const Team = () => {
 
                     <SwiperSlide>
                         <Link href="https://www.linkedin.com/in/alejandro-rodr%C3%ADguez-cabrera-/" target="_blank">
-                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 lg:w-52 xl:w-64 2xl:w-72 shadow-2xl flex flex-col items-center relative min-h-[320px]">
+                            <div className="card card-compact bg-white border-blue-400 border-2 w-72 lg:w-52 xl:w-64 2xl:w-72 shadow-2xl flex flex-col items-center relative lg:min-h-[290px] xl:min-h-[200px]">
                                 <figure className="pt-4">
                                     <Image
                                         src="/alejandro_rodríguez.jpg"
