@@ -17,8 +17,8 @@ const Newsletter = () => {
                     placeholder="Enter Your Email Address"
                 />
 
-                <button className="btn bg-[#90EE90] hover:bg-[#90EE90] border-none rounded-full text-white btn-lg lg:absolute lg:bottom-[2.8rem]  w-full 
-                lg:right-44 xl:right-[13rem] 2xl:right-[15rem] lg:w-40 mt-5">
+                <button className="btn bg-[#90EE90] hover:bg-[#90EE90] border-none rounded-full text-white btn-lg lg:absolute lg:bottom-[2.8rem] w-full 
+                lg:right-[10.7rem] lg:w-40 xl:right-[13rem] 2xl:right-[15.2rem] mt-5">
                     Get Started
                 </button>
             </div>
