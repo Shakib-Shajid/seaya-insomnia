@@ -20,7 +20,7 @@ const Team = () => {
 
     return (
         // bg-[#8a8a8c] 
-        <div className='bg-gradient-to-r from-cyan-500 to-blue-500  w-[96%] mb-40 md:mb-16 lg:mb-0 h-[500px] md:h-[700px] mx-auto font-hankenGrotesk'>
+        <div className='bg-gradient-to-r from-cyan-500 to-blue-500  w-[96%] md:mb-16 lg:mb-0 h-[600px] md:h-[600px] mx-auto font-hankenGrotesk'>
             <div className='w-[80%] md:w-[90%] mx-auto'>
                 {/* <div className='pt-10 md:pt-12'>
                     <hr className='border-black' />
@@ -488,7 +488,7 @@ const Team = () => {
                         disableOnInteraction: false, // Autoplay continues after user interactions
                     }}
                     modules={[Autoplay, Pagination]} // Include Autoplay and Pagination modules
-                    className="mySwiper my-14"
+                    className="mySwiper my-10"
                     breakpoints={{
                         // Mobile view (up to 768px)
                         0: {
@@ -593,9 +593,10 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
+                    
 
 
-                    <div className="custom-pagination mt-10 md:mt-12 lg:mt-16 flex justify-center"></div>
+                    {/* <div className="custom-pagination mt-10 md:mt-8 flex justify-center pb-10"></div>  */}
                 </Swiper>
 
 
