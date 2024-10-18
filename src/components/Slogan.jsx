@@ -10,7 +10,7 @@ const Slogan = () => {
             <div className="flex flex-col lg:flex-row gap-2 ">
                 <div className="pt-5 mt-3 w-[100%] md:pl-10 lg:pl-20 lg:py-20 space-y-1 md:space-y-5" data-aos="fade-up">
 
-                    <h3 className="text-[26px] md:text-3xl lg:text-6xl font-normal w-full  md:mx-auto lg:mx-0 space-y-10 text-[#0A1F44]">Investing in the future of fashion, we seek out disruptive digital-first brands that are redefining the industry</h3> {/*md:w-10/12 lg:w-2/3*/}
+                    <h3 className="text-[26px] md:text-3xl lg:text-6xl font-normal w-full  md:mx-auto lg:mx-0 space-y-10 text-[#0A1F44]">Investing in the future of fashion and leisure, we seek out disruptive digital-first brands that are redefining the industry.</h3> {/*md:w-10/12 lg:w-2/3*/}
 
                     {/* <span>&minus;</span>  */}
                     {/* <GoDash className="inline-block text-3xl hover:opacity-0"/> */}

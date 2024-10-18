@@ -18,7 +18,7 @@ const Newsletter = () => {
                 />
 
                 <button className="btn bg-[#90EE90] hover:bg-[#90EE90] border-none rounded-full text-white btn-lg lg:absolute lg:bottom-[2.8rem] w-full lg:w-40
-                 mt-5 lg:right-[11.3rem] xl:right-[13rem] 2xl:right-[15.2rem] custom-1600:right-[15.8rem]">
+                 mt-5 lg:right-[11.3rem] xl:right-[13rem] custom-1440:right-[14.4rem] 2xl:right-[15.2rem] custom-1600:right-[15.8rem] ">
                     Get Started
                 </button>
             </div>

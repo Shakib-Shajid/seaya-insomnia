@@ -41,17 +41,18 @@ import Image from 'next/image';
 const Banner = () => {
     return (
         <div>
-            <section className="h-screen text-white relative overflow-hidden">
-                {/* <div className="absolute inset-0 bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(/dollars.jpg)' }}></div> */}
-                <div className="absolute inset-0 bg-black opacity-50"></div>      {/**Dark overlay */}
+            <section className="h-screen text-white relative overflow-hidden"> 
+                {/* <div className="absolute inset-0 bg-fixed bg-cover bg-center" style={{ backgroundImage: 'url(/dollars.jpg)' }}></div> */} 
+                <div className="absolute inset-0 bg-fixed bg-cover bg-center bg-gradient-to-r from-purple-500 to-blue-600"></div>
+                <div className="absolute inset-0 bg-black opacity-50"></div>   
 
                 <div className="relative h-full flex flex-col justify-center items-center text-center px-4">
                     <h1 className="text-5xl md:text-6xl font-bold mb-4">Digital Native Brands</h1>
-                    <p className="text-xl md:text-2xl max-w-2xl mb-6">Fashion And Leisure For The Near Future</p>
+                    <p className="text-xl md:text-2xl max-w-2xl mb-6">Fashion and leisure for the near future</p>
                     {/* <button className="bg-green-500 text-white py-3 px-6 rounded-full text-lg hover:bg-green-600 transition">Discover More</button> */}
 
                     <div className="">
-                        <Image src="/image.png" width="4000" height="1000" alt="" className="w-40 h-20 md:w-48 md:h-32 lg:w-36 lg:h-16 border-4 border-white" />
+                        <Image src="/abcd.png" width="4000" height="1000" alt="" className="w-40 h-20 md:w-48 md:h-32 lg:w-36 lg:h-16 border-4 border-white" />
                     </div>
                 </div>
             </section>
