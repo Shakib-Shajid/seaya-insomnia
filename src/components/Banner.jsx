@@ -42,16 +42,23 @@ import Image from 'next/image';
 const Banner = () => {
     return (
         <div>
-            <section className="h-screen text-white relative overflow-hidden"> 
+            <section className="h-screen text-white relative overflow-hidden">
                 {/* Background gradient */}
                 <div className="absolute inset-0 bg-fixed bg-cover bg-center bg-gradient-to-r from-purple-500 to-blue-600"></div>
-                <div className="absolute inset-0 bg-black opacity-50"></div>   
+
+                {/* SVG Wave positioned in the center */}
+                <div className="absolute inset-0 flex justify-center items-end">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5000ca" fill-opacity="1" d="M0,32L60,69.3C120,107,240,181,360,192C480,203,600,149,720,138.7C840,128,960,160,1080,192C1200,224,1320,256,1380,272L1440,288L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+                </div>              
+
+
+                <div className="absolute inset-0 bg-black opacity-50"></div>
 
                 {/* Content container */}
                 <div className="relative h-[80%] flex flex-col justify-center items-center text-center px-4 space-y-6">
                     {/* Logo - Larger than text */}
                     <div className="pb-10">
-                        <Image src="/abcd.png" width="4000" height="1000" alt="" className="w-52 h-24 md:w-64 md:h-36 lg:w-56 lg:h-32 border-4 border-white" />
+                        <Image src="/w_icon.png" width="4000" height="1000" alt="" className="w-52 h-24 md:w-64 md:h-36 lg:w-56 lg:h-32 border-2 border-white" />
                     </div>
 
                     {/* Text - Positioned lower and slightly smaller than the image */}
