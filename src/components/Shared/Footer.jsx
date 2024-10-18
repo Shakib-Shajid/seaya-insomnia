@@ -210,7 +210,7 @@ import { FaLinkedinIn } from "react-icons/fa6";
 const Footer = () => {
     return (
         <div className='bg-neutral text-neutral-content'>
-            <footer className="footer  items-center p-4 max-w-7xl mx-auto ">
+            <footer className="footer justify-center md:justify-around lg:justify-between items-center p-4 max-w-7xl mx-auto ">
                 <aside className="grid-flow-col items-center">
                 <Image src="/fimage.png" width="100" height="100" alt="" />
                     {/* <svg
