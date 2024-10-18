@@ -18,7 +18,7 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       screens: {
-        'custom-1024': '1080px', // Custom breakpoint for 1080px
+        'custom-1600': '1600px', // Custom breakpoint for 1080px
       },
 
     },
