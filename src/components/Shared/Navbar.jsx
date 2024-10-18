@@ -39,7 +39,7 @@ const Navbar = () => {
 
     return (
         <div className={`navbar fixed top-0 left-0 w-full z-10 transition-colors duration-300 font-hankenGrotesk lg:py-5 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
-            <div className="flex-1">
+            <div className="flex-1 justify-center">
                 {isScrolled && (
                     // <Link href="/" >
                     //     <Image src="/m_logo.png" width="100" height="50" alt="" className='border border-red-600 ml-10'/>
@@ -49,8 +49,8 @@ const Navbar = () => {
                     </Link>
                 )}
             </div>
-            <div className="flex-none">
-                {/* <button className="btn btn-ghost " onClick={() => document.getElementById('my_modal_3').showModal()}> */}
+            <div className="flex-none hidden">
+                <button className="btn btn-ghost " onClick={() => document.getElementById('my_modal_3').showModal()}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="w-7 md:h-10 md:w-10 relative left-2 md:left-0"
@@ -63,7 +63,7 @@ const Navbar = () => {
                             strokeWidth="1"
                             d="M4 6h16M4 12h16M4 18h7" />
                     </svg>
-                {/* </button> */}
+                </button>
 
                 <dialog id="my_modal_3" className="modal">
                     <div className="bg-gray-200 w-full h-full p-8 md:p-28 lg:p-32 overflow-y-auto md:overflow-y-hidden text-2xl lg:text-3xl">
