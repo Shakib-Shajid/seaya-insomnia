@@ -32,20 +32,19 @@ const Team = () => {
                     <p className='text-2xl md:text-xl py-5'>
                     &quot;Our multidisciplinary team delivers exceptional results. <br />They are Engaged, supportive, and united.&quot;</p>
 
-                    {/* <Link href="/team" className="relative flex items-center justify-center group text-2xl"> */}
-                    {/* Static Text */}
-                    <div className="relative flex items-center justify-center group text-2xl hover:cursor-pointer">
+                    {/* <Link href="/team" className="relative flex items-center justify-center group text-2xl">
+                    Static Text
 
                         <span className="relative">
                             Meet the team
 
-                            {/* Underline that animates when hovered */}
+                            Underline that animates when hovered
                             <span
                                 className={`absolute left-0 bottom-0 w-full h-[2px] bg-white transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
                             ></span>
                         </span>
-                    </div>
-                    {/* </Link> */}
+
+                    </Link> */}
                 </div>
 
 
