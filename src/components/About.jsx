@@ -10,14 +10,14 @@ const About = () => {
             </div>
 
             <div className="w-[90%] mx-auto flex flex-col md:flex-row flex-wrap gap-5">
-                <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full">
+                <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full" data-aos="flip-left">
                     <figure className="px-10 pt-10">
                         <Image
-                            src="/icon_about_3.jpg"
+                            src="/stage.jpg"
                             width="1000"
                             height="1000"
                             alt="icon_about_1"
-                            className="rounded-full h-28 w-28"
+                            className="h-32 w-36 rounded-2xl"
                         />
                     </figure>
                     <div className="card-body flex-grow items-center text-center">
@@ -25,14 +25,14 @@ const About = () => {
                         <p>We invest in pre-seed, we want to be a partner in the first stages of the entrepreneurial journey.</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full">
+                <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full"  data-aos="flip-up">
                     <figure className="px-10 pt-10">
                         <Image
-                            src="/icon_about_2.jpg"
+                            src="/ticket.jpg"
                             width="1000"
                             height="1000"
                             alt="icon_about_1"
-                            className="rounded-full h-28 w-28"
+                            className="h-32 w-36 rounded-2xl"
                         />
                     </figure>
                     <div className="card-body flex-grow items-center text-center">
@@ -40,14 +40,14 @@ const About = () => {
                         <p>Our tickets start at 150 000 € with a follow-on capability of up to 1.5M € in several rounds.</p>
                     </div>
                 </div>
-                <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full">
+                <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full"  data-aos="flip-right">
                     <figure className="px-10 pt-10">
                         <Image
-                            src="/icon_about_1.jpg"
+                            src="/industry.webp"
                             width="1000"
                             height="1000"
                             alt="icon_about_1"
-                            className="rounded-full h-28 w-28"
+                            className="h-32 w-36 rounded-2xl"
                         />
                     </figure>
                     <div className="card-body flex-grow items-center text-center">

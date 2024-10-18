@@ -13,12 +13,12 @@ const Newsletter = () => {
             <div className='w-full md:w-[80%] mx-auto'> 
                 <input
                     type="email"
-                    className="text-white bg-transparent border border-white rounded-full mt-6 p-6 focus:outline-none  placeholder-white w-full lg:w-full"
+                    className="text-white bg-transparent border border-white rounded-full mt-6 p-6 focus:outline-none  placeholder-white w-full lg:w-3/4"
                     placeholder="Enter Your Email Address"
                 />
 
                 <button className="btn bg-[#90EE90] hover:bg-[#90EE90] border-none rounded-full text-white btn-lg lg:absolute lg:bottom-[2.8rem] w-full lg:w-40
-                 mt-5 lg:right-[7rem] xl:right-[8rem] 2xl:right-[9rem] custom-1600:right-[9.5rem]">
+                 mt-5 lg:right-[11.3rem] xl:right-[13rem] 2xl:right-[15.2rem] custom-1600:right-[15.8rem]">
                     Get Started
                 </button>
             </div>

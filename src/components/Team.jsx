@@ -20,18 +20,22 @@ const Team = () => {
 
     return (
         // bg-[#8a8a8c] 
-        <div className='bg-gradient-to-r from-cyan-500 to-blue-500  w-[96%] md:mb-16 lg:mb-0 h-[600px] md:h-[600px] mx-auto font-hankenGrotesk'>
+        <div className='bg-gradient-to-r from-sky-500 to-indigo-500  w-[96%] md:mb-16 lg:mb-0 h-[600px] md:h-[600px] mx-auto font-hankenGrotesk'>
             <div className='w-[80%] md:w-[90%] mx-auto'>
                 {/* <div className='pt-10 md:pt-12'>
                     <hr className='border-black' />
                 </div> */}
-                {/* <h3 className='text-3xl md:text-5xl pt-10 mx-auto w-11/12 md:w-11/12' data-aos="fade-down">Our team</h3> */}
-                <h3 className='text-3xl md:text-5xl pt-10 mx-auto' data-aos="fade-down">Team</h3>
-                <div className='text-white' data-aos="fade-down">
-                    <p className='text-2xl md:text-3xl py-5 md:py-10'>Multidisciplinary team, engaged and supportive</p>
+                {/* <h3 className='text-3xl md:text-5xl pt-10 mx-auto w-11/12 md:w-11/12' data-aos="fade-down">Our team</h3>   */} 
+                <div className='pt-10'></div>
+                <h3 className='text-3xl md:text-5xl mx-auto text-center text-white border border-white md:w-1/2 lg:h-2/12 lg:w-2/12 p-2 rounded-2xl' >Team</h3>
+                <div className='text-white text-center' data-aos="fade-down">
+                    <p className='text-2xl md:text-xl py-5'>
+                    &quot;Our multidisciplinary team delivers exceptional results. <br />They are Engaged, supportive, and united.&quot;</p>
 
-                    <Link href="/team" className="relative flex items-center group text-2xl">
-                        {/* Static Text */}
+                    {/* <Link href="/team" className="relative flex items-center justify-center group text-2xl"> */}
+                    {/* Static Text */}
+                    <div className="relative flex items-center justify-center group text-2xl hover:cursor-pointer">
+
                         <span className="relative">
                             Meet the team
 
@@ -40,7 +44,8 @@ const Team = () => {
                                 className={`absolute left-0 bottom-0 w-full h-[2px] bg-white transform transition-transform duration-500 origin-left scale-x-100 group-hover:scale-x-0 group-hover:origin-right`}
                             ></span>
                         </span>
-                    </Link>
+                    </div>
+                    {/* </Link> */}
                 </div>
 
 
@@ -593,7 +598,7 @@ const Team = () => {
                             </div>
                         </Link>
                     </SwiperSlide>
-                    
+
 
 
                     {/* <div className="custom-pagination mt-10 md:mt-8 flex justify-center pb-10"></div>  */}
