@@ -58,7 +58,7 @@ const Banner = () => {
                 <div className="relative h-[80%] flex flex-col justify-center items-center text-center px-4 space-y-6">
                     {/* Logo - Larger than text */}
                     <div className="pb-10">
-                        <Image src="/w_icon.png" width="4000" height="1000" alt="" className="w-52 h-24 md:w-64 md:h-36 lg:w-56 lg:h-32 border-2 border-white" />
+                        <Image src="/w_icon.png" width="4000" height="1000" alt="" className="w-52 h-24 md:w-64 md:h-36 lg:w-56 lg:h-28 border-2 border-white" />
                     </div>
 
                     {/* Text - Positioned lower and slightly smaller than the image */}
