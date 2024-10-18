@@ -11,13 +11,13 @@ const About = () => {
 
             <div className="w-[90%] mx-auto flex flex-col md:flex-row flex-wrap gap-5">
                 <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full" data-aos="flip-left">
-                    <figure className="px-10 pt-10">
+                    <figure className="">
                         <Image
-                            src="/stage.jpg"
+                            src="/a_5.gif"
                             width="1000"
                             height="1000"
                             alt="icon_about_1"
-                            className="h-32 w-36 rounded-2xl"
+                            className=" rounded-2xl"
                         />
                     </figure>
                     <div className="card-body flex-grow items-center text-center">
@@ -26,13 +26,13 @@ const About = () => {
                     </div>
                 </div>
                 <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full"  data-aos="flip-up">
-                    <figure className="px-10 pt-10">
+                    <figure className="">
                         <Image
-                            src="/ticket.jpg"
+                            src="/a_4.gif"
                             width="1000"
                             height="1000"
                             alt="icon_about_1"
-                            className="h-32 w-36 rounded-2xl"
+                            className=" rounded-2xl"
                         />
                     </figure>
                     <div className="card-body flex-grow items-center text-center">
@@ -41,13 +41,13 @@ const About = () => {
                     </div>
                 </div>
                 <div className="card bg-base-100 w-80  mx-auto shadow-2xl border-2 border-blue-600 flex flex-col h-full"  data-aos="flip-right">
-                    <figure className="px-10 pt-10">
+                    <figure className="">
                         <Image
-                            src="/industry.webp"
+                            src="/a_2.gif"
                             width="1000"
                             height="1000"
                             alt="icon_about_1"
-                            className="h-32 w-36 rounded-2xl"
+                            className="h-60 rounded-2xl"
                         />
                     </figure>
                     <div className="card-body flex-grow items-center text-center">
