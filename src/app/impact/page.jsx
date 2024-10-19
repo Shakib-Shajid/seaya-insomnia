@@ -211,14 +211,14 @@ const page = () => {
         //     </section>
         // </div>
         <div className=''>
-            <section className='p-10 md:p-24 mt-20 md:mb-0 md:mt-0 md:w-full flex flex-col lg:flex-row gap-3 bg-gradient-to-r from-purple-500 to-[#f4a261] text-white' data-aos="fade-right">
+            <section className='p-10 md:p-24 mt-20 md:mb-0 md:mt-0 md:w-full flex flex-col lg:flex-row gap-3 bg-gradient-to-r from-green-500 to-orange-400 text-white' data-aos="fade-right">
             
                 <div>
                     <h3 className='text-3xl md:text-4xl lg:text-6xl'>Shaping the future of digital fashion: The Insomnia Lab approach</h3> <br />
                     <p className='text-xl lg:w-5/6 my-2 space-y-3'>At Insomnia Lab, we&apos;re not just passive investors; we are active participants in the evolution of the digital fashion landscape. We&apos;ve assembled a dynamic network of experienced professionals, entrepreneurs, and industry experts who share a passion for supporting the next generation of digital-native fashion brands. Our approach is inspired by successful models in the global venture
                         capital space, incorporating elements of community building, specialized expertise, and a focus on long-term growth.</p>
                 </div>
-                <Image src="/fashion_1.jpg" width="500" height="500" alt="" className='mx-auto rounded-2xl' />
+                <Image src="/fashion_2.png" width="500" height="500" alt="" className='mx-auto rounded-2xl' />
                 {/* <div className='space-y-4 mt-3'>
                     <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2024/07/Seaya_ESG-and-Impact-Report-2023.pdf" target="_blank"><p className='flex gap-1 my-4'><span className='text-xl'><GoDash /></span> Seaya 2023 ESG & Impact Report</p></Link>
                     <Link href="https://cdn-628fa384c1ac183cb034ddea.closte.com/wp-content/uploads/2023/06/Seaya-2022-ESG-Impact-Report.pdf" target="_blank"><p className='flex gap-1 my-4'><span className='text-xl'><GoDash /></span> Seaya 2022 ESG & Impact Report</p></Link>
@@ -238,14 +238,14 @@ const page = () => {
                             <p> Find out more here</p>
                         </div>
                     </div>
-                    <Image src="/fashion_2.png" width="500" height="500" alt="" className='md:w-4/5 lg:w-2/6 h-80 my-auto mx-auto rounded-2xl' />
+                    <Image src="/fashion_1.jpg" width="500" height="500" alt="" className='md:w-4/5 lg:w-2/6 h-80 my-auto mx-auto rounded-2xl' />
                 </div>
 
             </section>
 
 
 
-            <section className='bg-gradient-to-r from-[#264653] to-yellow-500 text-white ' data-aos="fade-down-right">
+            <section className='bg-gradient-to-r from-[#264653] to-yellow-500 text-white' data-aos="fade-up-right">
                 <div className='pt-20 w-[84%] mx-auto'>
                     <hr className='border border-white w-full' />
                 </div>
@@ -263,7 +263,7 @@ const page = () => {
             </section>
 
 
-            <section className='bg-gradient-to-r from-[#003366] to-[#008080] text-white' data-aos="fade-down-right">
+            <section className='bg-gradient-to-r from-[#003366] to-[#008080] text-white' data-aos="zoom-in">
                 <div className='pt-20 w-[84%] mx-auto'>
                     <hr className='border border-white w-full' />
                 </div>
