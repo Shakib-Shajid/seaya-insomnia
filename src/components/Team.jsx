@@ -30,7 +30,7 @@ const Team = () => {
                 <h3 className='text-3xl md:text-5xl mx-auto text-center text-white border border-white md:w-1/2 lg:h-2/12 lg:w-2/12 p-2 rounded-2xl' >Team</h3>
                 <div className='text-white text-center' data-aos="fade-down">
                     <p className='text-2xl md:text-xl py-5'>
-                    &quot;Our multidisciplinary team achieves outstanding results with the aim of working closely <br className='hidden lg:grid'/> with the next generation of entrepreneurs.&quot;</p>
+                    &quot;Our multidisciplinary team achieves outstanding results working closely <br className='hidden lg:grid'/> with the next generation of entrepreneurs.&quot;</p>
 
                     {/* <Link href="/team" className="relative flex items-center justify-center group text-2xl">
                     Static Text
