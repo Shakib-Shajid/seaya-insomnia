@@ -33,7 +33,7 @@
 
 
 
-// "use client"
+"use client"
 import React from 'react';
 import Link from 'next/link';
 import { IoIosArrowDropdown } from "react-icons/io";
@@ -71,12 +71,23 @@ const Banner = () => {
 
             {/* Down Arrow Icon */}
             <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 grid">
-                <Link href="#slogan">
-                    <IoIosArrowDropdown className="text-white text-4xl bounce hover:cursor-pointer" />
-                </Link>
-            </div>
+                    <Link href="#slogan" scroll={true} onClick={(e) => {
+                        e.preventDefault(); // Prevent the default scroll behavior
+                        const target = document.getElementById('slogan');
+                        if (target) {
+                            window.scrollTo({
+                                top: target.offsetTop - 100, // Adjust -50 to control the offset from the top
+                                behavior: 'smooth', // Smooth scroll
+                            });
+                        }
+                    }}>
+                        <IoIosArrowDropdown className="text-white text-4xl bounce hover:cursor-pointer" />
+                    </Link>
+                </div>
+            
         </div>
     );
 };
 
 export default Banner;
+
