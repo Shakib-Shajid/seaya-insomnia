@@ -2,7 +2,9 @@ import React from 'react';
 
 const Newsletter = () => {
     return (
-        <div className="text-center relative mx-auto bg-blue-400 text-white md:rounded-3xl p-5 lg:p-10 md:w-[90%] lg:w-[70%] my-10" data-aos="zoom-in">
+        <div className="text-center relative mx-auto bg-violet-600 text-white md:rounded-3xl p-5 lg:p-10 md:w-[90%] lg:w-[70%] my-10" 
+        // data-aos="zoom-in"
+        >
             <h5 className="text-lg lg:text-xl">Join Our Community</h5>
             <h2 className="text-xl md:text-3xl font-bold">Subscribe To Our Newsletter</h2>
             <p className="mt-4 text-base">
@@ -17,7 +19,7 @@ const Newsletter = () => {
                     placeholder="Enter Your Email Address"
                 />
 
-                <button className="btn bg-[#90EE90] hover:bg-[#90EE90] border-none rounded-full text-white btn-lg lg:absolute lg:bottom-[2.8rem] w-full lg:w-40
+                <button className="btn bg-info hover:bg-info border-none rounded-full text-white btn-lg lg:absolute lg:bottom-[2.8rem] w-full lg:w-40
                  mt-5 lg:right-[11.3rem] xl:right-[13rem] custom-1440:right-[14.4rem] 2xl:right-[15.2rem] custom-1600:right-[15.8rem] ">
                     Get Started
                 </button>
