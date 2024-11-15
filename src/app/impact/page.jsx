@@ -226,7 +226,7 @@ const page = () => {
             </section>
 
             <section className='' data-aos="flip-right">
-                <div className='pt-5 md:pt-0 lg:pt-16 w-[88%] mx-auto '>
+                <div className='pt-5 md:pt-0 lg:pt-8 w-[80%] lg:w-[86%] mx-auto '>
                     <hr className='border border-black w-full' />
                 </div>
                 <div className='lg:px-24 md:py-10 w-[80%] mx-auto md:w-full flex flex-col lg:flex-row gap-5'>
@@ -246,7 +246,7 @@ const page = () => {
 
 
             <section className='' data-aos="fade-up-right">
-                <div className='lg:pt-16 w-[88%] mx-auto '>
+                <div className='lg:pt-16 w-[80%] lg:w-[86%] mx-auto '>
                     <hr className='border border-black w-full' />
                 </div>
                 <div className='lg:px-24 md:py-10 w-[80%] mx-auto md:w-full flex flex-col lg:flex-row-reverse gap-5'>
@@ -264,7 +264,7 @@ const page = () => {
 
 
             <section className='mb-12' data-aos="zoom-in">
-                <div className='pt-16 w-[88%] mx-auto '>
+                <div className='pt-16 w-[80%] lg:w-[86%] mx-auto '>
                     <hr className='border border-black w-full' />
                 </div>
                 <div className='lg:px-24 md:py-10 w-[80%] mx-auto md:w-full flex flex-col lg:flex-row gap-5'>
