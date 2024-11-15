@@ -62,7 +62,7 @@ const FAQ = () => {
       ];
 
     return (
-        <div className="space-y-4 w-[80%] mx-auto border-blue-600 border-2 my-10 rounded-3xl p-10">
+        <div className="space-y-4 w-[80%] mx-auto border-blue-600 border-2 my-10 rounded-3xl p-10 bg-blend-hard-light">
             <h3 className='text-2xl md:text-4xl font-bold py-5 text-center text-black'>Frequently Asked Question</h3>
             {accordionItems.map((accordionItem, index) => (
                 <div key={index} className="border-b-2 border-blue-400 rounded-xl pb-4 md:w-[80%] mx-auto">
