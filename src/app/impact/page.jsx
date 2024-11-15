@@ -211,8 +211,8 @@ const page = () => {
         //     </section>
         // </div>
         <div className=''>
-            <section className='p-10 md:p-24 mt-20 md:mb-0 md:mt-0 md:w-full flex flex-col lg:flex-row gap-3 bg-gradient-to-r from-green-500 to-orange-400 text-white' data-aos="fade-right">
-            
+            <section className='p-10 md:p-24 mt-20 md:mb-0 md:mt-0 md:w-full flex flex-col lg:flex-row gap-3' data-aos="fade-right">
+
                 <div>
                     <h3 className='text-3xl md:text-4xl lg:text-6xl'>Shaping the future of digital fashion: The Insomnia Lab approach</h3> <br />
                     <p className='text-xl lg:w-5/6 my-2 space-y-3'>At Insomnia Lab, we&apos;re not just passive investors; we are active participants in the evolution of the digital fashion landscape. We&apos;ve assembled a dynamic network of experienced professionals, entrepreneurs, and industry experts who share a passion for supporting the next generation of digital-native fashion brands. Our approach is inspired by successful models in the global venture
@@ -225,8 +225,8 @@ const page = () => {
                 </div> */}
             </section>
 
-            <section className='bg-gradient-to-r from-[#f4a261] to-fuchsia-500 text-white' data-aos="flip-right">
-                <div className='pt-20 w-[84%] mx-auto'>
+            <section className='' data-aos="flip-right">
+                <div className='pt-5 md:pt-0 lg:pt-16 w-[88%] mx-auto '>
                     <hr className='border border-black w-full' />
                 </div>
                 <div className='lg:px-24 md:py-10 w-[80%] mx-auto md:w-full flex flex-col lg:flex-row gap-5'>
@@ -245,9 +245,9 @@ const page = () => {
 
 
 
-            <section className='bg-gradient-to-r from-[#264653] to-yellow-500 text-white' data-aos="fade-up-right">
-                <div className='pt-20 w-[84%] mx-auto'>
-                    <hr className='border border-white w-full' />
+            <section className='' data-aos="fade-up-right">
+                <div className='lg:pt-16 w-[88%] mx-auto '>
+                    <hr className='border border-black w-full' />
                 </div>
                 <div className='lg:px-24 md:py-10 w-[80%] mx-auto md:w-full flex flex-col lg:flex-row-reverse gap-5'>
                     <div className='md:w-[80%] mx-auto lg:w-[60%]'>
@@ -263,9 +263,9 @@ const page = () => {
             </section>
 
 
-            <section className='bg-gradient-to-r from-[#003366] to-[#008080] text-white' data-aos="zoom-in">
-                <div className='pt-20 w-[84%] mx-auto'>
-                    <hr className='border border-white w-full' />
+            <section className='mb-12' data-aos="zoom-in">
+                <div className='pt-16 w-[88%] mx-auto '>
+                    <hr className='border border-black w-full' />
                 </div>
                 <div className='lg:px-24 md:py-10 w-[80%] mx-auto md:w-full flex flex-col lg:flex-row gap-5'>
                     <div className='md:w-[80%] mx-auto lg:w-[60%]'>
