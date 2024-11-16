@@ -62,7 +62,7 @@ const FAQ = () => {
       ];
 
     return (
-        <div className="space-y-4 w-[80%] mx-auto border-blue-600 border-2 my-10 rounded-3xl p-10 bg-blend-hard-light">
+        <div className="space-y-4 w-[80%] mx-auto border-blue-600 border-2 my-10 rounded-3xl p-10 bg-blend-hard-light"  data-aos="flip-left">
             <h3 className='text-2xl md:text-4xl font-bold py-5 text-center text-black'>Frequently Asked Question</h3>
             {accordionItems.map((accordionItem, index) => (
                 <div key={index} className="border-b-2 border-blue-400 rounded-xl pb-4 md:w-[80%] mx-auto">
@@ -70,8 +70,8 @@ const FAQ = () => {
                         onClick={() => FAQAccordion(index)}
                         className="flex items-center w-full text-left"
                     >
-                        <div className="p-2 mr-4 border rounded-full border-blue-500 text-black hover:bg-black hover:text-white transition-all duration-500 ease-in-out">
-                            {activeIndex === index ? <FiChevronUp className="text-black text-xl"/> : <FiChevronDown className="text-black text-xl"/>}
+                        <div className="p-2 mr-4 border rounded-full border-blue-500 text-black hover:bg-black transition-all duration-500 ease-in-out">
+                            {activeIndex === index ? <FiChevronUp className="text-black hover:text-white text-xl"/> : <FiChevronDown className="text-black hover:text-white text-xl"/>}
                         </div>
                         <span className="text-2xl font-bold">{accordionItem.title}</span>
                     </button>

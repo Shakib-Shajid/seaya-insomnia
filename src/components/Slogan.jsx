@@ -14,14 +14,22 @@ const Slogan = () => {
 
                     {/* <span>&minus;</span>  */}
                     {/* <GoDash className="inline-block text-3xl hover:opacity-0"/> */}
-                    <Link href="/impact">
-                        <div className="flex gap-2 md:w-10/12 lg:w-full font-light py-7 md:mx-auto ">
-                            <div className="flex mt-3 md:mt-0 ">
-                                <IoIosArrowRoundForward className="text-3xl text-[#3333333]" />
+                    <div className="md:w-10/12 lg:w-[53%] font-light py-7 md:mx-auto lg:mx-0 group">
+                        <Link href="/impact">
+                            {/* Arrow Icon */}
+                            <div className="flex gap-2 ">
+                                <div className="flex mt-3 md:mt-0 transform transition-transform group-hover:translate-x-2">
+                                    <IoIosArrowRoundForward className="text-3xl text-[#333333]" />
+                                </div>
+                                {/* Text */}
+                                <p className="text-lg hover:underline text-[#333333] transform transition-transform group-hover:translate-x-2">
+                                    Discover how we&apos;re shaping the future of digital fashion
+                                </p>
                             </div>
-                            <p className="text-lg hover:underline text-[#3333333]"> Discover how we&apos;re shaping the future of digital fashion</p>
-                        </div>
-                    </Link>
+                        </Link>
+                    </div>
+
+
                 </div>
 
                 <div className="lg:p-10 flex justify-center items-center text-2xl md:w-[80%] mx-auto lg:w-[50%] my-3 lg:my-10]" data-aos="flip-right">
