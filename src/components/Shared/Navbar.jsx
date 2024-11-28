@@ -39,7 +39,7 @@ const Navbar = () => {
 
     return (
         <div className={`navbar fixed top-0 left-0 w-full z-10 transition-colors duration-300 font-hankenGrotesk lg:py-5 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
-            <div className="flex-1 justify-center">
+            <div className="flex-1">
                 {isScrolled && (
                     // <Link href="/" >
                     //     <Image src="/m_logo.png" width="100" height="50" alt="" className='border border-red-600 ml-10'/>
@@ -49,7 +49,7 @@ const Navbar = () => {
                     </Link>
                 )}
             </div>
-            <div className="flex-none hidden">
+            <div className="flex-none lg:hidden">
                 <button className="btn btn-ghost " onClick={() => document.getElementById('my_modal_3').showModal()}>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -73,26 +73,15 @@ const Navbar = () => {
                         <div className='flex md:flex-row flex-col md:gap-24 lg:gap-96'>
                             <div>
                                 <ul className='space-y-3 w-72'>
-                                    {/* ............................................................................................ */}
+
                                     <li>
-                                        <Link href="/" onClick={closeModal}>
-                                            <span className={`relative group ${pageName === 'home' ? 'underline' : ''}`}>
-                                                Home
-                                                <span className={`${pageName === 'home' ? '' : "absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-200100 group-hover:origin-left"}`}></span>
-                                            </span>
-                                        </Link>
-                                    </li>
-
-
-                                    {/* ............................................................................................ */}
-                                    {/* <li>
                                         <Link href="/" onClick={closeModal}>
                                             <span className={`relative group ${pageName === 'home' ? 'underline' : ''}`}>
                                                 Home
                                                 <span className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"></span>
                                             </span>
                                         </Link>
-                                    </li> */}
+                                    </li>
                                     <li>
                                         <Link href="/ventures" onClick={closeModal}>
                                             <span className={`relative group ${pageName === 'ventures' ? 'underline' : ''}`}>
@@ -185,6 +174,13 @@ const Navbar = () => {
                     </div>
                 </dialog>
             </div>
+            <ul className={`menu menu-horizontal px-1 text-lg hidden lg:flex ${!isScrolled ? 'text-white' : 'text-black'}`}>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Our Brands</a></li>
+                <li><a>For Businesses</a></li>
+                <li><a>Contact</a></li>
+            </ul>
         </div>
     );
 };
