@@ -6,6 +6,7 @@ import FAQ from "@/components/FAQ";
 import Slogan from "@/components/Slogan";
 import Team from "@/components/Team";
 import About from "@/components/About";
+import Brand from "@/components/Brand";
 
 export const metadata = {
   title: "Home - Insomnia Lab",
@@ -21,6 +22,7 @@ export default function Home() {
       <About />
       {/* <Funds /> */}
       {/* <Portfolio /> */}
+      <Brand />
       <Team />
       <FAQ />
       <Newsletter />
