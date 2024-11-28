@@ -5,8 +5,8 @@ const About = () => {
     return (
         <div className='max-w-7xl mx-auto mb-10 lg:mb-20' data-aos="zoom-in">
             <div className='text-center my-5'>
-                <h3 className='text-blue-600'>ABOUT US</h3>
-                <p className='text-3xl font-bold'>Our Thesis</p>
+                <h3 className='text-blue-600 font-bold text-xl'>Who We Are</h3>
+                <p className='text-lg max-w-5xl mx-auto'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam odit voluptatibus tempore inventore esse iure exercitationem blanditiis in saepe ab!</p>
             </div>
 
             <div className="w-[90%] mx-auto flex flex-col md:flex-row flex-wrap gap-5">
