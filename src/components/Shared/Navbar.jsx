@@ -71,9 +71,8 @@ const Navbar = () => {
                             <button className="btn btn-sm btn-circle btn-ghost absolute right-2 md:right-12 top-6 md:top-12 text-base">✕</button>
                         </form>
                         <div className='flex md:flex-row flex-col md:gap-24 lg:gap-96'>
-                            <div>
+                            {/*   <div>
                                 <ul className='space-y-3 w-72'>
-
                                     <li>
                                         <Link href="/" onClick={closeModal}>
                                             <span className={`relative group ${pageName === 'home' ? 'underline' : ''}`}>
@@ -169,7 +168,55 @@ const Navbar = () => {
                                         </span>
                                     </Link></li>
                                 </ul>
+                            </div> */}
+                            {/* .................................................................. */}
+                            <div>
+                                <ul className='space-y-3 w-72'>
+                                    <li>
+                                        <Link href="/" onClick={closeModal}>
+                                            <span className={`relative group ${pageName === 'home' ? 'underline' : ''}`}>
+                                                Home
+                                                <span className="absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"></span>
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/ventures" onClick={closeModal}>
+                                            <span className={`relative group ${pageName === 'about' ? 'underline' : ''}`}>
+                                                About
+                                                <span className={`${pageName === 'about' ? '' : "absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"}`}></span>
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/andromeda" onClick={closeModal}>
+                                            <span className={`relative group ${pageName === 'brands' ? 'underline' : ''}`}>
+                                                Our Brands
+                                                <span className={`${pageName === 'brands' ? '' : "absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"}`}></span>
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/cathay-latam" onClick={closeModal}>
+                                            <span className={`relative group ${pageName === 'business' ? 'underline' : ''}`}>
+                                                For Businesses
+                                                <span className={`${pageName === 'business' ? '' : "absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"}`}></span>
+                                            </span>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/portfolio" onClick={closeModal}>
+                                            <span className={`relative group ${pageName === 'contact' ? 'underline' : ''}`}>
+                                                Contact
+                                                <span className={`${pageName === 'contact' ? '' : "absolute left-0 bottom-0 w-full h-[2px] bg-black transform transition-transform duration-500 origin-left scale-x-0 group-hover:scale-x-100 group-hover:origin-left"}`}></span>
+                                            </span>
+                                        </Link>
+                                    </li>
+                                </ul>
                             </div>
+                            {/* .................................................................. */}
+
+
                         </div>
                     </div>
                 </dialog>
